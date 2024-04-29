@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="WeatherApp.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" placeholder="city" spellcheck="false">
+            <button>
+                <i class="fa-solid fa-meteor fa-xl"></i>
+            </button>
+        </div>
+        <div class="error">
+            <p>Invalid City Name :/</p>
+        </div>
+        <div class="weather">
+            
+            <h1 class="city"></h2>
+            <h2 class="temp"></h1>
+            <div class="details">
+                <div class="col">
+                    <i class="fa-solid fa-water fa-2xl" id="humid-wind"></i>
+                    <div>
+                        <p class="col-text">Humidity</p>
+                        <p class="humidity">-</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-wind fa-2xl" id="humid-wind"></i>
+                    <div>
+                        <p class="col-text">Wind Speed</p>
+                        <p class="wind">-</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/40266b9fef.js"></script>
+    <script src="WeatherApp.js"></script>
+</body>
+</html>
